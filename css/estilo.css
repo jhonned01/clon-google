@@ -1,4 +1,51 @@
-.header{
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.header{
+    width: 100%;
     display: inline-block;
+    height: 60px;
+}
+
+.header nav{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.header nav .menu-derecha{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header nav .menu-derecha a{
+    margin-left: 10px;
+    color: #000000;
+
+}
+
+nav .menu-derecha .menu-icon{
+    background-image: url("https://cdn1.iconfinder.com/data/icons/the-basics/100/applications-gallery-menu-thumbnails-512.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 20px;
+}
+
+nav .menu-derecha img{
+
+    border-radius: 50px;
 }
